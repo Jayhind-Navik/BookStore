@@ -30,6 +30,10 @@ namespace YtBookStore.Controllers
         [HttpPost]
         public IActionResult Add(Book model)
         {
+            // Remove validation for navigation properties
+            ModelState.Remove(nameof(model.Author));
+            ModelState.Remove(nameof(model.Publisher));
+            ModelState.Remove(nameof(model.Genre));
             model.AuthorList = authorService.GetAll().Select(a => new SelectListItem { Text = a.AuthorName, Value = a.Id.ToString(),Selected=a.Id==model.AuthorId}).ToList();
             model.PublisherList = publisherService.GetAll().Select(a => new SelectListItem { Text = a.PublisherName, Value = a.Id.ToString(),Selected=a.Id==model.PubhlisherId }).ToList();
             model.GenreList = genreService.GetAll().Select(a => new SelectListItem { Text = a.Name, Value = a.Id.ToString(),Selected=a.Id==model.GenreId }).ToList();
@@ -63,6 +67,7 @@ namespace YtBookStore.Controllers
             model.AuthorList = authorService.GetAll().Select(a => new SelectListItem { Text = a.AuthorName, Value = a.Id.ToString(), Selected = a.Id == model.AuthorId }).ToList();
             model.PublisherList = publisherService.GetAll().Select(a => new SelectListItem { Text = a.PublisherName, Value = a.Id.ToString(), Selected = a.Id == model.PubhlisherId }).ToList();
             model.GenreList = genreService.GetAll().Select(a => new SelectListItem { Text = a.Name, Value = a.Id.ToString(), Selected = a.Id == model.GenreId }).ToList();
+            
             if (!ModelState.IsValid)
             {
                 return View(model);

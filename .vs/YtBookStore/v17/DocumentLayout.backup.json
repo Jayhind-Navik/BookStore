@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\heman\\source\\repos\\YtBookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|c:\\users\\heman\\source\\repos\\ytbookstore\\ytbookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|solutionrelative:ytbookstore\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|c:\\users\\heman\\source\\repos\\ytbookstore\\ytbookstore\\models\\domain\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|solutionrelative:ytbookstore\\models\\domain\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|c:\\users\\heman\\source\\repos\\ytbookstore\\ytbookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D93970F-3C27-4325-A106-1D703EAFBE6D}|YtBookStore\\YtBookStore.csproj|solutionrelative:ytbookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Models\\Domain\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "YtBookStore\\Models\\Domain\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Models\\Domain\\DatabaseContext.cs",
+              "RelativeToolTip": "YtBookStore\\Models\\Domain\\DatabaseContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAhwBIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T12:17:00.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "YtBookStore\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Controllers\\BookController.cs",
+              "RelativeToolTip": "YtBookStore\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:59:44.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Views\\Book\\Add.cshtml",
+              "RelativeDocumentMoniker": "YtBookStore\\Views\\Book\\Add.cshtml",
+              "ToolTip": "C:\\Users\\heman\\source\\repos\\YtBookStore\\YtBookStore\\Views\\Book\\Add.cshtml",
+              "RelativeToolTip": "YtBookStore\\Views\\Book\\Add.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T10:58:37.737Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
