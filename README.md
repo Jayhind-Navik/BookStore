@@ -1,4 +1,4 @@
-OUTPUT
+OUTPUT  MVC
 
 <img width="1028" height="869" alt="image" src="https://github.com/user-attachments/assets/1141d2ed-b187-4c99-8638-78433322e9e8" />
 <img width="1814" height="864" alt="image" src="https://github.com/user-attachments/assets/cf43ee91-d920-46ae-9a94-f6c59fe79e23" />
